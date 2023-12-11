@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="314dp"
+        android:layout_height="18dp"
+        android:text="TextView"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="366dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="2dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="538dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/conoceturegion"
+            app:srcCompat="@drawable/conoceturegion" />
+
+        <ImageView
+            android:id="@+id/btnlog"
+            android:layout_width="312dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/logout"
+            app:srcCompat="@drawable/logout" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="391dp"
+        android:layout_height="542dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="2dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.282"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="384dp"
+            android:layout_height="517dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="5dp"
+            map:cameraZoom="10"
+            map:uiRotateGestures="true"
+            map:uiZoomControls="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="384dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="28dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/btnLocation"
+            android:layout_width="214dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ubicacion"
+            app:srcCompat="@drawable/ubicacion" />
+
+        <ImageView
+            android:id="@+id/btnComents"
+            android:layout_width="214dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/comentarios"
+            app:srcCompat="@drawable/comentarios"
+            tools:srcCompat="@drawable/comentarios" />
+
+        <ImageView
+            android:id="@+id/btncomentario"
+            android:layout_width="214dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/comentar"
+            app:srcCompat="@drawable/comentar"
+            tools:srcCompat="@drawable/comentar" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

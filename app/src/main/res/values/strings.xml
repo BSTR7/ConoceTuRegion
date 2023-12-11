@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Conoce Tu Region</string>
+    <string name="hint_logitud">Longitud</string>
+    <string name="hint_latitud">Latitud</string>
+</resources>
