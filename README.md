@@ -1,4 +1,4 @@
-feat: Commit inicial para ConocetuRegion
+# Commit inicial para ConocetuRegion
 
 - Implementado sistema de registro y login de usuarios
 - Integrado mapa con puntos turísticos de la región del Maule
