@@ -56,10 +56,6 @@
 - Android 5.0 o superior
 - Conexión a Internet
 
-## Instalación
-
-1. Descarga el APK desde el [enlace de descarga](https://github.com/tu_usuario/ConoceTuRegion/releases/latest).
-2. Instala la aplicación en tu dispositivo Android.
 
 ## Contribuciones
 
