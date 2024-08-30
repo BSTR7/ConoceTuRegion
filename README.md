@@ -41,8 +41,7 @@
 
 ## Descargas
 
-- [Descargar Código Fuente](https://github.com/tu_usuario/ConoceTuRegion/archive/refs/heads/master.zip)
-- [Descargar APK](https://github.com/tu_usuario/ConoceTuRegion/releases/latest)
+- [Descargar Código Fuente](https://github.com/BSTR7/ConoceTuRegion/archive/refs/heads/main.zip)
 
 ## Uso
 
